@@ -1,0 +1,12 @@
+# JARVIS Windows - Gerekli paketler
+google-genai>=0.3.0
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.14
+psutil>=5.9.0
+Pillow>=10.0.0
+requests>=2.31.0
+pyperclip>=1.8.0
+mss>=9.0.0
+vosk>=0.3.45
+pystray>=0.19.0
+opencv-python>=4.8.0
