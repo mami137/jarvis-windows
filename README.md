@@ -106,6 +106,13 @@ Two API keys are needed:
 
 > **Tip:** With both keys, JARVIS can automatically choose the best model for each task.
 
+### Windows SmartScreen Warning
+
+When you run `Jarvis.exe` for the first time, Windows may show a SmartScreen warning. This is normal for open-source applications without a paid code signing certificate. To proceed:
+
+1. Click **"More info"**
+2. Click **"Run anyway"**
+
 ## Technologies
 
 - **Python 3.12** - Core language
