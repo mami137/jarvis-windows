@@ -29,6 +29,7 @@
 | **Weather** | Real-time weather information |
 | **System Monitor** | CPU, RAM, battery, disk stats |
 | **Browser Control** | Web search, open URLs |
+| **Multi-LLM Engine** | Gemini native or OpenRouter routing (GPT-4, Claude, etc.) |
 | **Multi-Language** | Full Turkish and English support |
 | **Chat History** | Multi-conversation management with JSON storage |
 | **Wake Word** | "Hey Jarvis" voice activation |
@@ -90,14 +91,20 @@ jarvis-windows/
 
 ## Configuration
 
-An API key is required on first run:
+Two API keys are needed:
 
-1. Get a free API key from [Google AI Studio](https://aistudio.google.com/apikey)
+### Gemini API Key (Required)
+1. Get a free key from [Google AI Studio](https://aistudio.google.com/apikey)
 2. Launch JARVIS
 3. Enter the key in the popup window
-4. Click Save - JARVIS is ready!
+4. Click Save
 
-> **Tip:** You can also add an OpenRouter API key to use different LLM models (GPT-4, Claude, etc.)
+### OpenRouter API Key (Optional)
+1. Get a key from [OpenRouter](https://openrouter.ai/keys)
+2. Add it in the Settings panel
+3. This enables access to GPT-4, Claude, Llama and 100+ other models via RouteLLM
+
+> **Tip:** With both keys, JARVIS can automatically choose the best model for each task.
 
 ## Technologies
 
