@@ -39,10 +39,11 @@
 
 ### Option 1: Exe (Easy)
 
-1. Download `Jarvis.zip` from [Releases](https://github.com/mami137/jarvis-windows/releases)
-2. Extract to any folder
-3. Run `Jarvis.exe`
-4. Enter your Gemini API key on first launch
+1. Download `Jarvis.exe` from [Releases](https://github.com/mami137/jarvis-windows/releases)
+2. Run `Jarvis.exe`
+3. Enter your Gemini API key on first launch
+
+> **Note:** Windows SmartScreen may warn you on first run. Click "More info" then "Run anyway" to proceed.
 
 ### Option 2: Source Code (Developers)
 
@@ -105,13 +106,6 @@ Two API keys are needed:
 3. This enables access to GPT-4, Claude, Llama and 100+ other models via RouteLLM
 
 > **Tip:** With both keys, JARVIS can automatically choose the best model for each task.
-
-### Windows SmartScreen Warning
-
-When you run `Jarvis.exe` for the first time, Windows may show a SmartScreen warning. This is normal for open-source applications without a paid code signing certificate. To proceed:
-
-1. Click **"More info"**
-2. Click **"Run anyway"**
 
 ## Technologies
 
