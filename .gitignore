@@ -16,3 +16,8 @@ Jarvis-Source.zip
 __MACOSX/
 
 *.zip
+
+_internal_vosk/
+dist/
+build/
+*.spec
